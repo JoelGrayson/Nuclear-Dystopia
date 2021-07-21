@@ -1,5 +1,5 @@
+const maxImgNum=9;
 let imgNum=4;
-let maxImgNum=9;
 
 document.querySelector('#left').addEventListener('click',()=>{
     left();

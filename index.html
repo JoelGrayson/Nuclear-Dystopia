@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <!--Roboto Font Beginning-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--Roboto Font End-->
     <link rel="stylesheet" href="./style.css">
-    <link href='./style.css' rel>
 </head>
-<body style='background-color: #bbbdc9'>
-    <content>
-        <div id='imgContainer'>
-            <img src='imgs/4.jpg' id='rotatableDisplay' alt='Nuclear Dystopia'>
-        </div>
-        <div class='controls' id='arrows'>
-            <button id='left'><</button>
-            <button id='right'>></button>
-        </div>
-        <div class='controls'>
-            <label for='autoSpinCheckbox'>Auto-spin: </label>
-            <input type="checkbox" id='autoSpinCheckbox'>
-            <input type='range' min=0 max=1500 id='spinSpeedRange'>
-        </div>
-        <p style='text-align:center'>Click the buttons or press arrow keys</p>
-    </content>
+<body>
+    <div class='description'>
+        <h1>Nuclear Dystopia</h1>
+        <p>
+            This project depicts the dystopian world many people imagine at the thought of nuclear energy.
+            <br>
+            As a nuclear proponent myself <a href='https://docs.google.com/document/d/10UPNgg3JuJXTLNMbtxZSDp8xDl0IY2Ol_57S8paEcBg/edit'>(I wrote an article on my thoughts here)</a>, I wanted to explore the fear.
+            <br><br>
+        </p>
+    </div>
+    <div id='imgContainer'>
+        <img src='imgs/4.jpg' id='rotatableDisplay' alt='Nuclear Dystopia'>
+    </div>
+    <div class='controls' id='arrows'>
+        <button id='left'><</button>
+        <button id='right'>></button>
+    </div>
+    <div class='controls'>
+        <label for='autoSpinCheckbox'>Auto-spin: </label>
+        <input type="checkbox" id='autoSpinCheckbox'>
+        <input type='range' min=0 max=1500 id='spinSpeedRange'>
+    </div>
+    <p>Click the buttons or press arrow keys</p>
     <script src='index.js'></script>
 </body>
 </html>
